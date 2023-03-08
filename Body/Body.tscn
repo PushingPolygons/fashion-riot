@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://trlapys8mrv5"]
+
+[ext_resource type="Script" path="res://Body/Body.gd" id="1_ts46s"]
+
+[node name="Body" type="Node2D"]
+script = ExtResource("1_ts46s")
+
+[node name="BodyGraphics" type="Line2D" parent="."]
+position = Vector2(-13, -173)
+points = PackedVector2Array(6, -87, 41, -73, 40, -34, 9, -34, 14, -16, 36, -12, 126, 30, 114, 44, 55.6156, 24.2889, 69, 85, 51, 167, 21, 98, 0, 98, -22, 169, -46, 97, -34, 17, -102, 66, -116, 43, -56, -9, -23, -14, 1, -14, -6, -31, -38, -40, -34, -62, -6, -85)
+default_color = Color(0.603922, 1, 0.52549, 1)
+
+[node name="TopSnap" type="Node2D" parent="."]
+self_modulate = Color(0.294118, 0.0901961, 0.152941, 1)
+position = Vector2(-9, -145)
+metadata/_edit_group_ = true
+
+[node name="BottomSnap" type="Node2D" parent="."]
+position = Vector2(-1, -93)
+
+[node name="FeetSnap" type="Node2D" parent="."]
+position = Vector2(-5, -11)

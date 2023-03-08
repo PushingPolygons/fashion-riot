@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://do8ygn0l44rxk"]
+
+[ext_resource type="Script" path="res://Main/Main.gd" id="1_483lb"]
+[ext_resource type="PackedScene" uid="uid://trlapys8mrv5" path="res://Body/Body.tscn" id="2_faum3"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_483lb")
+
+[node name="Body" parent="." instance=ExtResource("2_faum3")]
+position = Vector2(325, 431)
