@@ -1,10 +1,24 @@
-[gd_scene load_steps=3 format=3 uid="uid://do8ygn0l44rxk"]
+[gd_scene load_steps=4 format=3 uid="uid://do8ygn0l44rxk"]
 
 [ext_resource type="Script" path="res://Main/Main.gd" id="1_483lb"]
 [ext_resource type="PackedScene" uid="uid://trlapys8mrv5" path="res://Body/Body.tscn" id="2_faum3"]
+[ext_resource type="PackedScene" uid="uid://bpqppr45diq17" path="res://Top/Top.tscn" id="3_06wpa"]
 
 [node name="Main" type="Node"]
 script = ExtResource("1_483lb")
 
 [node name="Body" parent="." instance=ExtResource("2_faum3")]
-position = Vector2(325, 431)
+position = Vector2(205, 207)
+
+[node name="Top" parent="Body" instance=ExtResource("3_06wpa")]
+modulate = Color(0.439216, 0.494118, 1, 1)
+position = Vector2(702, -24)
+snap_distance = 500.0
+
+[node name="Top2" parent="Body" instance=ExtResource("3_06wpa")]
+modulate = Color(1, 0.0941176, 0.0705882, 1)
+position = Vector2(795, -176)
+
+[node name="Top3" parent="Body" instance=ExtResource("3_06wpa")]
+modulate = Color(0.996078, 1, 0.4, 1)
+position = Vector2(669, 160)

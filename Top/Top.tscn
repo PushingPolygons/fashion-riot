@@ -1,7 +1,16 @@
-[gd_scene format=3 uid="uid://bpqppr45diq17"]
+[gd_scene load_steps=3 format=3 uid="uid://bpqppr45diq17"]
 
-[node name="Top" type="Node2D"]
+[ext_resource type="Script" path="res://Top/Top.gd" id="1_0u2sv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mdgjy"]
+size = Vector2(183, 103)
+
+[node name="Top" type="Area2D"]
+script = ExtResource("1_0u2sv")
 
 [node name="AwesomeTee" type="Line2D" parent="."]
 points = PackedVector2Array(-95, -27, -70, 25, -49, 11, -57, 52, -9, 50, 41, 53, 78, 56, 66, 10, 83, 16, 91, -22, 56, -44, 28, -47, 8, -18, -20, -48, -43, -48, -92, -26)
-default_color = Color(0.172549, 0.137255, 1, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2.5, 7.5)
+shape = SubResource("RectangleShape2D_mdgjy")

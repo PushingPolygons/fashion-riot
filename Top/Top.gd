@@ -1,11 +1,28 @@
-extends Node2D
+extends Area2D
+
+@export var snap_distance: float = 100.0 # px
+var is_dragging: bool = false
 
 
-# Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	input_event.connect(OnInputEvent)
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
+func OnInputEvent(view, event, idk):
+	if event is InputEventMouseButton:
+		
+		# Pressed down on top.
+		if event.pressed:
+			is_dragging = true
+		# Lift up.
+		else:
+			is_dragging = false
+
+
 func _process(delta):
-	pass
+	if is_dragging:
+		position = get_viewport().get_mouse_position() - get_parent().position
+		var pos = get_parent().top_snap.position
+		if position.distance_to(pos) < snap_distance:
+			print("Close enough.")
+			get_parent().AttachTop(self)

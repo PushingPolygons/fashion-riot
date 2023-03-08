@@ -1,7 +1,10 @@
 extends Node2D
 
-# Declarations.
-var x = 45
+@onready var top_snap = $TopSnap
+@onready var bottom_snap = $BottomSnap
+@onready var feet_snap = $FeetSnap
+
+
 func AttachTop(top: Node2D):
 	top.position = $TopSnap.position
 
