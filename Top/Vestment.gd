@@ -6,6 +6,7 @@ var is_dragging: bool = false
 var mouse_offset: Vector2 = Vector2(0, 100)
 
 
+
 func _ready():
 	input_event.connect(OnInputEvent)
 
@@ -20,6 +21,8 @@ func _process(delta):
 		if position.distance_to(pos) < snap_distance:
 			print("Close enough.")
 			get_parent().Attach(self)
+			# TODO: Detach as well.
+
 
 func OnInputEvent(viewport, event, shape_idx):
 	if event is InputEventMouseButton:
