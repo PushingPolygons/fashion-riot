@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://u4laknlputas"]
+
+[ext_resource type="Script" path="res://Top/Vestment.gd" id="1_je08n"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mdgjy"]
+size = Vector2(144, 82.5)
+
+[node name="Bottom" type="Area2D"]
+script = ExtResource("1_je08n")
+
+[node name="AwesomeTee" type="Line2D" parent="."]
+position = Vector2(-14, -147)
+points = PackedVector2Array(-42, 110, 17, 84, 78, 110, 79, 45, -50, 45, -54, 93)
+default_color = Color(1, 0.231373, 0.427451, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2, -72.25)
+shape = SubResource("RectangleShape2D_mdgjy")
