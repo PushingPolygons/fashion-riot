@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="Fashion Riot"
-run/main_scene="res://Main/Main.tscn"
+run/main_scene="res://Main/Manoman.tscn"
 config/features=PackedStringArray("4.0", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Persistent="*res://Main/Persistent.gd"
 
 [editor_plugins]
 

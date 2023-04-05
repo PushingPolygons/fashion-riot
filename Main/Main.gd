@@ -1,6 +1,6 @@
 extends Node
 
-const TOP = preload("res://Top/Top.tscn")
+const VESTMENT = preload("res://Vestment/Vestment.gd")
 const USER_PATH = "user://game_save.dat"
 
 @onready var body := $Body
