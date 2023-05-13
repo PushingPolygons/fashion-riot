@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bubq6l8mcl0ku"]
+
+[node name="Article" type="Area2D"]
+
+[node name="AwesomeTee" type="Line2D" parent="."]
+position = Vector2(-14, -147)
+points = PackedVector2Array(-95, -27, -70, 25, -49, 11, -57, 52, -9, 50, 41, 53, 78, 56, 66, 10, 83, 16, 91, -22, 56, -44, 28, -47, 8, -18, -20, -48, -43, -48, -92, -26)
+
+[node name="AwesomeTee2" type="CollisionPolygon2D" parent="."]
+position = Vector2(-14, -147)
+polygon = PackedVector2Array(-95, -27, -70, 25, -49, 11, -57, 52, -9, 50, 41, 53, 78, 56, 66, 10, 83, 16, 91, -22, 56, -44, 28, -47, 8, -18, -20, -48, -43, -48, -92, -26)

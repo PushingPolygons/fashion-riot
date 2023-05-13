@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dt5pfiqewahu8"
-path="res://.godot/imported/sun_dress.png-35b333cf7d64cb11b7aa4512213376a8.ctex"
+uid="uid://cm0ulebkyl58"
+path="res://.godot/imported/blue_shorts.png-fb2be9ccba46054d5b3ceb2cf0a92231.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Vestment/sun_dress.png"
-dest_files=["res://.godot/imported/sun_dress.png-35b333cf7d64cb11b7aa4512213376a8.ctex"]
+source_file="res://Attire/Shorts/blue_shorts.png"
+dest_files=["res://.godot/imported/blue_shorts.png-fb2be9ccba46054d5b3ceb2cf0a92231.ctex"]
 
 [params]
 

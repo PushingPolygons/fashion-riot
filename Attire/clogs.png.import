@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://xl8ajthrjjft"
-path="res://.godot/imported/red_shirt.png-d07f7835565caa99e32cd69581cf979e.ctex"
+uid="uid://ljo4ugwh8r3"
+path="res://.godot/imported/clogs.png-36d3c937667bb5e3b3d28e95f253dc96.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Vestment/red_shirt.png"
-dest_files=["res://.godot/imported/red_shirt.png-d07f7835565caa99e32cd69581cf979e.ctex"]
+source_file="res://Attire/clogs.png"
+dest_files=["res://.godot/imported/clogs.png-36d3c937667bb5e3b3d28e95f253dc96.ctex"]
 
 [params]
 

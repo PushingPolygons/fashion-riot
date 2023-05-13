@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ljo4ugwh8r3"
-path="res://.godot/imported/clogs.png-7852ed8b257e2d019e23d70fd10358dc.ctex"
+uid="uid://dt5pfiqewahu8"
+path="res://.godot/imported/sun_dress.png-20a570c7b7016035d6bff8704f939972.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Vestment/clogs.png"
-dest_files=["res://.godot/imported/clogs.png-7852ed8b257e2d019e23d70fd10358dc.ctex"]
+source_file="res://Attire/sun_dress.png"
+dest_files=["res://.godot/imported/sun_dress.png-20a570c7b7016035d6bff8704f939972.ctex"]
 
 [params]
 

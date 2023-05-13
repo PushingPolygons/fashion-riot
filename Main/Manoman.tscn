@@ -1,8 +1,8 @@
 [gd_scene load_steps=2 format=3 uid="uid://bnt15li18tt8j"]
 
-[ext_resource type="PackedScene" uid="uid://trlapys8mrv5" path="res://Body/Body.tscn" id="1_r6cxx"]
+[ext_resource type="PackedScene" uid="uid://5s6wexu8i84m" path="res://Body/Body.tscn" id="1_r6cxx"]
 
 [node name="Manoman" type="Node"]
 
 [node name="Body" parent="." instance=ExtResource("1_r6cxx")]
-position = Vector2(329, 523)
+position = Vector2(459, 562)

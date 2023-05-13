@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cm0ulebkyl58"
-path="res://.godot/imported/blue_shorts.png-759c10968ebf72a8e2d0c123cb6b31f4.ctex"
+uid="uid://xl8ajthrjjft"
+path="res://.godot/imported/red_shirt.png-e3031aeb5bff7203ba4ae8955deaf20d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Vestment/blue_shorts.png"
-dest_files=["res://.godot/imported/blue_shorts.png-759c10968ebf72a8e2d0c123cb6b31f4.ctex"]
+source_file="res://Attire/red_shirt.png"
+dest_files=["res://.godot/imported/red_shirt.png-e3031aeb5bff7203ba4ae8955deaf20d.ctex"]
 
 [params]
 

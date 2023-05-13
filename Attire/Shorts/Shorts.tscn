@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://cnqkhnfh27en5"]
+
+[ext_resource type="Script" path="res://Article/Article.gd" id="1_jrtp8"]
+[ext_resource type="Texture2D" uid="uid://cm0ulebkyl58" path="res://Attire/Shorts/blue_shorts.png" id="2_bhmpy"]
+
+[node name="Shorts" type="Area2D"]
+script = ExtResource("1_jrtp8")
+
+[node name="BlueShorts" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(25.9824, -179.018)
+scale = Vector2(13.4364, 13.4364)
+texture = ExtResource("2_bhmpy")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(25.9824, -179.018)
+scale = Vector2(13.4364, 13.4364)
+polygon = PackedVector2Array(1.86062, 11.9824, -0.893096, 11.9824, -1.11637, 11.0149, -2.90256, 10.866, -3.05141, 11.908, -6.17725, 11.9824, -6.0284, 6.17725, 1.93504, 5.95398)
